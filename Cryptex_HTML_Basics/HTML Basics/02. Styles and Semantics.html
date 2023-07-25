@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Styles and Semantics</title>
+  <style>
+    body {
+      background-color: blanchedalmond;
+    }
+
+    .myDiv {
+      border: 5px outset red;
+      background-color: lightblue;
+      text-align: center;
+    }
+
+    aside {
+      width: 30%;
+      padding-left: 15px;
+      margin-left: 15px;
+      float: right;
+      font-style: italic;
+      background-color: lightgray;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="myDiv"> <!-- Defines a section in a document -->
+    <h1>Welcome Webbies!</h1>
+    <h2>Styles & Semantics in HTML</h2>
+  </div>
+
+  <!-- The <span> tag is an inline container used to mark up a part of a text, or a part of a document. -->
+  <p>Welcome Guys in the <span style="font-style: italic; color: red" >Crypetx Web Dev 2023</span> seminar.</p>
+
+<a href="/02. styles and semantics.png" target="_blank">Open image</a>
+  <!-- Defines a header for the document or section -->
+  <header>Navigation links</header>
+
+  <br>
+
+
+  <nav> <!-- Defines  navigation links -->
+    <a href="https://www.google.com">Go to Google</a><br>
+    <a href="https://www.chrome.com">Go to Chrome</a><br>
+    <a href="https://www.mozilla.org">Go to Mozilla</a><br>
+    <a href="https://www.microsoft.com">Go to Microsoft</a><br>
+  </nav>
+
+
+  <main> <!-- Specifies the main content of a document -->
+    <h1>Most Popular Browsers</h1>
+    <p>Chrome, Firefox, and Edge are the most used browsers today.</p>
+
+    <article> <!-- Defines an article -->
+      <h2>Google Chrome</h2>
+      <p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web
+        browser today!</p>
+    </article>
+
+    <section> <!-- Defines a section in a document -->
+      <h2>Mozilla Firefox</h2>
+      <p>Mozilla Firefox is an open-source web browser developed by Mozilla. Firefox has been the second most popular
+        web browser since January, 2018.</p>
+    </section>
+
+    <article>
+      <h2>Microsoft Edge</h2>
+      <p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet
+        Explorer.</p>
+    </article>
+  </main>
+
+
+  <aside> <!-- Defines content aside from the page content -->
+    <h2>Aside content is placed here</h2>
+  </aside>
+
+  <details> <!-- Defines additional details that the user can view or hide -->
+    <summary>Browser</summary> <!-- Defines a visible heading for a <details> element -->
+    <p>A web browser is an application for accessing websites. When a user requests a web page from a particular
+      website, the browser retrieves its files from a web server and then displays the page on the user's screen.</p>
+  </details>
+
+  <!-- Defines a dialog box or window -->
+  <dialog open>This is an open dialog window</dialog>
+
+  <!-- Adds a machine-readable translation of a given content -->
+  <!-- The <data> tag is used to add a machine-readable translation of a given content.This element provides both a machine-readable value for data processors, and a human-readable value for rendering in a browser. -->
+  <!-- Tip: If the content is time- or date-related, use the <time> element instead. -->
+  <ul>
+    <li><data value="21053">Chrome</data></li>
+    <li><data value="21054">Mozilla Firefox</data></li>
+    <li><data value="21055">Microdoft Edge</data></li>
+  </ul>
+
+
+  <footer> <!-- Defines a footer for a document or  section -->
+    <p>Author: Master RD</p>
+    <p><a
+        href="https://mail.google.com/mail/u/2/?ogbl#inbox?compose=CllgCKHRLcjbzhRcKHNNtwLpRVFPgtDPCQgMjdmZvfRjSzDNqdxfQMCKBhjVfwbVgsrMhgvwvFg"
+        target="_blank">rohandhonde36@gmail.com</a>
+        <br><br>
+        <a href="/03. Lists.html" target="_blank"><img src="https://w7.pngwing.com/pngs/195/742/png-transparent-arrow-arrow-right-change-direction-next-page-right-essentials-icon.png"
+          alt="Error_Loading_Image" width="16" height="16">&nbsp;&nbsp;Go to Next page
+  </a>
+    </p>
+  </footer>
+
+
+</body>
+
+</html>

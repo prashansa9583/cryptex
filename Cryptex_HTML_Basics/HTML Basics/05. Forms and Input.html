@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Form</title>
+  <style>
+    body{
+      background-color: blanchedalmond;
+    }
+  </style>
+</head>
+
+<body>
+  <center>
+    <h2>Form and Inputs in HTML</h2>
+  </center>
+
+  <!-- Defines an HTML form for user input  -->
+  <h3>Input Types in form:</h3>
+  <form action="backed.php" method="post">
+    <div>
+      <label for="fname">First name:</label>
+      <input type="text" id="fname" name="fname">&nbsp;&nbsp;&nbsp;
+      <label for="lname">Last name:</label>
+      <input type="text" id="lname" name="lname">
+    </div>
+
+    <br>
+
+    <div>
+      <label for="birthday">Birthday:</label>
+      <input type="date" id="birthday" name="birthday">
+    </div>
+
+    <br>
+
+    <div>
+      <label for="email">Enter your email:</label>
+      <input type="email" id="email" name="email">
+    </div>
+
+    <br>
+
+    <div>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username"><br><br>
+      <label for="pwd">Password:</label>
+      <input type="password" id="pwd" name="pwd">
+    </div>
+
+    <br>
+
+    <div>
+      <label for="idcolor">ID Color</label>
+      <input type="color" id="idcolor" name="idcolor">
+    </div>
+
+    <br>
+
+    <div>
+      <label for="myfile">Upload ID:</label>
+      <input type="file" id="myfile" name="myfile">
+    </div>
+
+    <br>
+
+    <div>
+      <label for="fav_language">Fav Langauge</label><br>
+      <input type="radio" id="html" name="fav_language" value="HTML">
+      <label for="html">HTML</label><br>
+      <input type="radio" id="css" name="fav_language" value="CSS">
+      <label for="css">CSS</label><br>
+      <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+      <label for="javascript">JavaScript</label>
+    </div>
+
+    <br>
+
+    <div>
+      <input type="checkbox">Agree with the Terms and Conditions.
+    </div>
+
+    <br>
+
+    <div>
+      <input type="button" onclick="alert('Form confirmed!')" value="Click Here">
+    </div>
+
+    <br>
+
+    <div>
+      <input type="submit" value="Submit now">
+      <input type="reset" value="Clear">
+    </div>
+    
+  </form>
+  <br>
+  <br>
+  <a href="/06. Formatting.html" target="_blank"><img src="https://w7.pngwing.com/pngs/195/742/png-transparent-arrow-arrow-right-change-direction-next-page-right-essentials-icon.png"
+    alt="Error_Loading_Image" width="16" height="16">&nbsp;&nbsp;Go to Next page
+</a>
+</body>
+
+</html>
